@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Cascadia Code", sans-serif;
+  color: white;
+}
+
+body {
+  background-color: rgb(57, 25, 132, 0.8);
+}
+
+#image {
+  position: relative;
+  left: 50vw;
+  top: 9vh;
+}
+
+#background-image {
+  border-radius: 5rem;
+  box-shadow: rgb(57, 25, 132) 1rem 1rem 2rem;
+}
+
+#title {
+  position: relative;
+  left: 53vw;
+  top: -53vh;
+  /* font-size: 4rem; */
+}
+
+.horario {
+  position: relative;
+  left: 30vw;
+  top: -53vh;
+  /* font-size: 4rem; */
+  background-color: #503391;
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+  width: 3rem;
+  height: 4rem;
+  text-align: center;
+}
+
+.number {
+  font-size: 2rem;
+}
+
+#days {
+  position: relative;
+  top: -52vh;
+  left: 52.25vw;
+}
+
+#hours {
+  position: relative;
+  top: -62.75vh;
+  left: 57vw;
+}
+
+#minutes {
+  position: relative;
+  top: -62vh;
+  left: 52.25vw;
+}
+
+#seconds {
+  position: relative;
+  top: -73vh;
+  left: 57vw;
+}
+
+#formulario {
+  position: relative;
+  top: -73vh;
+  left: 53.25vw;
+}
+
+#email {
+  font-size: 1rem;
+  position: relative;
+  top: 2vh;
+  border-radius: 10rem;
+  border: 0;
+  background-color: #584094;
+  padding: 0.5rem;
+}
+
+button {
+  font-size: 1rem;
+  position: relative;
+  top: 3vh;
+  left: 2.5vw;
+  border-radius: 10rem;
+  border: 0;
+  background-color: #fe4bd4;
+  padding: 0.5rem;
+  cursor: pointer;
+  color: white;
+}
